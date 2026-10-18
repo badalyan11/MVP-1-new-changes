@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #3b362f;
+}
+
+/* While editing, show when words don't fit their box even at the smallest size. */
+.editing [data-overflow="true"] {
+  outline: 1.5px dashed #c0392b;
+  outline-offset: -2px;
+}
